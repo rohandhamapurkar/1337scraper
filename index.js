@@ -5,7 +5,8 @@ var cheerio = require('cheerio'), cheerioTableparser = require('cheerio-tablepar
 let torrent1337 = 'https://1337x.bypassed.bz'
 let mode = process.argv[2];
 let searchString = process.argv[3];
-var parser = new ArgumentParser({
+function main(){
+  var parser = new ArgumentParser({
     version: '1.0.0',
     addHelp:true,
     description: '1337 scraper'
@@ -62,3 +63,6 @@ var parser = new ArgumentParser({
   } else {
       console.log("Invalid arguments use -h for help")
   }
+}
+
+module.exports = main;
