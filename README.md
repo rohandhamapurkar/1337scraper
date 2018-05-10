@@ -6,10 +6,7 @@ NodeJS and argparse,cheerio,cheerio-tableparser required
 npm -i in root to install all dependencies
 
 # How to use (Command line usage)
-usage: node index.js [-h] [-v] [-s S] [-m M]
-
-1337 scraper
-
+    usage: node index.js [-h] [-v] [-s S] [-m M]
     Optional arguments:
         -h, --help     Show this help message and exit.
         -v, --version  Show program's version number and exit.
