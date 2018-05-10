@@ -1,0 +1,16 @@
+{
+  "name": "1337xscraper",
+  "version": "1.0.0",
+  "description": "a simple scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohan Dhamapurkar",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1"
+  }
+}
