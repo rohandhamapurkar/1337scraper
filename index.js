@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var request = require('request');
 const {spawnSync} = require('child_process');
 var ArgumentParser = require('argparse').ArgumentParser;

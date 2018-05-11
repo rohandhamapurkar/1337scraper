@@ -1,6 +1,8 @@
 {
   "name": "1337scraper",
   "version": "1.0.0",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "description": "a simple scraper",
   "main": "index.js",
   "scripts": {
