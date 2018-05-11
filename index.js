@@ -21,7 +21,7 @@ function main(){
   parser.addArgument(
     [ '-m', '--m' ],
     {
-      help: 'to launch utorrent apllication with magnet link or to get magnet link in console'
+      help: 'to launch utorrent application with magnet link or to get magnet link in console'
     }
   );
   var args = parser.parseArgs();
