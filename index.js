@@ -8,7 +8,7 @@ const cheerio = require('cheerio'),
   const Table = require('cli-table');
   const rl = require("readline");
   const prompts = rl.createInterface(process.stdin, process.stdout);
-  const torrent1337 = 'https://1337x.bypassed.bz'
+  const torrent1337 = 'https://1337x.unblocked.lol'
 
 const Spinner = require('cli-spinner').Spinner;
 
